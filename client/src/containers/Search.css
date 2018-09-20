@@ -1,0 +1,113 @@
+.Search-Bar {
+    position: relative;
+    width: 375px;
+    height: 40px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff;
+    border-bottom: solid 1px #ececec;
+}
+
+.Search-Rectangle-121 {
+    position: absolute;
+    position: relative;
+    left:0;
+    top:3px;
+    width: 292px;
+    height: 30px;
+    margin-left: 8px;
+    border-radius: 100px;
+    background-color: #eaeaea;
+}
+
+.Search-Rectangle-121 input[type="text"] {
+    position: relative;
+    top:-9px;
+    font-family: AppleSDGothicNeo;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    color: #aaaaaa;
+}
+
+.Search-search1 {
+    width: 375px;
+    height: 667px;
+}
+
+.Search-Bg {
+    width: 375px;
+    height: 667px;
+    background-color: #f6f6f6;
+}
+
+.Search-Cancel {
+    position: absolute;
+    right:8px;
+    top:-10px;
+    font-family: AppleSDGothicNeo;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #030303;
+}
+
+.Search-Cancel .text-style-1 {
+    letter-spacing: normal;
+}
+.Search-tags {
+    position: relative;
+    padding-top: 8px;
+    margin-left: 16px;
+    padding-left: 20px;
+    width: 359px;
+    height: 57px;
+}
+
+.Search-layer {
+    position: absolute;
+    top:18px;
+    left:0px;
+    width: 13px;
+    height: 17px;
+    object-fit: contain;
+}
+
+.Search-tagBox{
+    margin-left: 10px;
+    border-bottom: 1px solid #aaaaaa;
+}
+.Search-tagBox:hover{
+    background-color: #aaaaaa;
+}
+.Search-tagitem {
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+
+.Search-posts {
+    font-family: AppleSDGothicNeo;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaaaaa;
+}

@@ -1,0 +1,33 @@
+.Register-Rectangle-3{
+    width: 247px;
+    height: 40px;
+    margin-top: 180px;
+    margin-left: 64px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: solid 1px #aaaaaa;
+}
+.Register-Rectangle-3.email {
+    margin-top: 16px;
+}
+.Register-Rectangle-3.password {
+    margin-top: 16px;
+}
+
+.Register-Rectangle-3.register {
+    text-align: center;
+    margin-top: 16px;
+    background-color: #4a90e2;
+}
+
+.Register-Register {
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 12px;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #ffffff;
+}

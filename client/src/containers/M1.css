@@ -1,0 +1,102 @@
+.M1-Bitmap {
+    width: 94px;
+    height: 27px;
+    margin-top: 136px;
+    margin-left: 141px;
+    object-fit: contain;
+    background-color: #231f20;
+}
+
+.btn {
+    width: 247px;
+    height: 40px;
+    margin-top: 236px;
+    margin-left: 64px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: solid 1px #2c2c2c;
+}
+
+.btn.blue {
+    margin-top: 16px;
+    border: solid 1px #4a90e2;
+}
+
+
+
+.M1-Word {
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #2c2c2c;
+}
+
+.M1-Word.Word2{
+    color: #4a90e2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    margin-top: 12px;
+    margin-left: 16px;
+    font-size: 15px;
+    border: none;
+    height: auto;
+    background-color: transparent;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]:focus{
+    outline: none;
+}
+input:-ms-input-placeholder{
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #aaaaaa;
+}
+input::-webkit-input-placeholder{
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #aaaaaa;
+}
+input::-moz-placeholder{
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #aaaaaa;
+}
+input:-moz-placeholder{
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #aaaaaa;
+}

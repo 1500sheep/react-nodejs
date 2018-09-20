@@ -1,0 +1,107 @@
+.Upload-Bg {
+    width: 375px;
+    height: 560px;
+    background-color: #f6f6f6;
+}
+
+.Upload-Bar {
+    width: 375px;
+    height: 44px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff;
+    border-bottom: solid 1px #ececec;
+}
+
+.Upload-Profile {
+    width: 41px;
+    height: 18px;
+    margin-left: 165px;
+    font-family: AppleSDGothicNeo;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #030303;
+}
+.Upload-Done {
+    width: 34px;
+    height: 18px;
+    margin-left: 110px;
+    font-family: AppleSDGothicNeo;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #4a90e2;
+}
+
+.Upload-Rectangle {
+    width: 351px;
+    height: 38px;
+    margin-top: 16px;
+    margin-left:12px;
+    border-radius: 6px;
+    background-color: #6e8f9c;
+}
+
+.Upload-Add-Image {
+    width: 71px;
+    height: 16px;
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Upload-Rectangle-Input {
+    width: 351px;
+    height: 160px;
+    margin-top: 16px;
+    margin-left: 12px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+}
+
+.Upload-description {
+    width: 63px;
+    height: 16px;
+    margin-left: 16px;
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #aaaaaa;
+}
+
+.Upload-tag {
+    width: 18px;
+    height: 16px;
+    margin-left: 16px;
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #aaaaaa;
+}
+

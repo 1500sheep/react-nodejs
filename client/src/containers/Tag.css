@@ -1,0 +1,33 @@
+.Tag-Bar {
+    position: relative;
+    width: 375px;
+    height: 40px;
+    text-align: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff;
+    border-bottom: solid 1px #ececec;
+}
+
+.Tag-Back {
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 14px;
+    margin-top: 8px;
+    margin-left: 16px;
+    object-fit: contain;
+}
+.Tag-Profile {
+    width: 41px;
+    height: 18px;
+    font-family: AppleSDGothicNeo;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #030303;
+}

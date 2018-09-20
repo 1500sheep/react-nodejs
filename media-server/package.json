@@ -1,0 +1,52 @@
+{
+  "name": "prayonserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx nodemon ./bin/www --exec babel-node localhost",
+    "initdb": "npx babel-node src/common/database.js initdb",
+    "reloaddb": "rm db.sqlite && npm run initdb && npm run dump",
+    "dump": "babel-node src/common/dump.js",
+    "pm2": "pm2 start app.js —interpreter ./node_modules/.bin/babel-node —name 'gidon-server'"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "child_process": "^1.0.2",
+    "cloneextend": "0.0.3",
+    "co": "^4.6.0",
+    "co-fs": "^1.2.0",
+    "co-fs-extra": "^1.2.1",
+    "co-multipart": "^2.0.0",
+    "connect-multiparty": "^2.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "ffprobe": "^1.1.0",
+    "form-data": "^2.3.1",
+    "get-audio-duration": "0.0.1",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.1.0",
+    "jszip": "^3.1.5",
+    "moment": "^2.19.1",
+    "morgan": "^1.8.2",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "node-fetch": "^1.7.3",
+    "regex": "^0.1.1",
+    "request": "^2.83.0",
+    "request-progress": "^3.0.0",
+    "sequelize": "^4.28.6",
+    "serve-favicon": "~2.4.2",
+    "sqlite3": "^3.1.13",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
+  }
+}

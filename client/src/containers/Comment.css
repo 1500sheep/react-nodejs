@@ -1,0 +1,77 @@
+.Comment-Oval {
+    width: 38px;
+    height: 38px;
+    margin-left: 16px;
+    background-color: #e0e0e0;
+}
+
+.Comment-Reply .text-style-1 {
+    letter-spacing: normal;
+}
+.Comment-Back {
+    width: 8px;
+    height: 14px;
+    object-fit: contain;
+}
+.Comment-Item{
+    position: relative;
+    width: 359px;
+    padding-left: 20px;
+}
+
+.Comment-Item.Reply{
+    margin-left: 50px;
+}
+.Comment-Avatar{
+    position:absolute;
+    width:38px;
+    height:38px;
+    left:16px;
+    top:16px;
+    border-radius: 50%;
+}
+.Comment-Box{
+    position: relative;
+    padding-top: 5px;
+    margin-left: 50px;
+    width: 359px;
+    height: 57px;
+    border-bottom: 1px solid #aaaaaa;
+}
+.Comment-Reply {
+    width: 36px;
+    height: 18px;
+    font-family: AppleSDGothicNeo;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #030303;
+}
+
+.Comment-Nickname {
+    font-family: AppleSDGothicNeo;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c2c2c;
+}
+
+.Comment-Location{
+    font-family: AppleSDGothicNeo;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaaaaa;
+}

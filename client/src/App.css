@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-Rectangle {
+  width: 375px;
+  height: 667px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.App-Bar {
+    position: fixed;
+    width: 375px;
+    height: 40px;
+    bottom:0;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 -1px 0 0 #e0e0e0;
+}
+.App-Home {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 28px;
+    object-fit: contain;
+}
+
+.App-Search {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 55px;
+    object-fit: contain;
+}
+
+.App-Photo {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 55px;
+    object-fit: contain;
+}
+
+
+.App-Activity {
+    width: 20px;
+    height: 18px;
+    margin-top: 15px;
+    margin-left: 55px;
+    object-fit: contain;
+}
+
+.App-Profile {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 55px;
+    object-fit: contain;
+}
